@@ -36,5 +36,16 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView registerImageView1 = findViewById(R.id.exam);
+
+
+        registerImageView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Quizzandexams.class);
+                startActivity(intent);
+            }
+        });
     }
 }
