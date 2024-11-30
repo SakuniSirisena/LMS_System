@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcademicCalender">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="529dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="792dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="cursive"
+        android:text="Academic Calender"
+        android:textColor="#2196F3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="624dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:text="24"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="200dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginBottom="440dp"
+            android:text="Wed Jan 2024" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="88dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginBottom="2dp"
+            android:background="#9ACDD3"
+            android:text="Today"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="532dp"
+        android:text="Time"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="532dp"
+        android:text="Course"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="472dp"
+        android:text="11.30"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="452dp"
+        app:cardBackgroundColor="#EBF6FB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#D9EAF2"
+            android:text="Assignment 1 (20 MCQ)" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cyber Security and fundamentals"
+            android:textSize="14dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="388dp"
+        android:text="13.00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="225dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="364dp"
+        app:cardBackgroundColor="#EBF6FB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Develoment"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#D9EAF2"
+            android:text="Assignment 1 submission" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="227dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="268dp"
+        app:cardBackgroundColor="#EBF6FB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operatin System" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#D9EAF2"
+            android:text="Practical Assignment" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="292dp"
+        android:text="16.00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="604dp"
+        android:text="Calender"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="314dp"
+        android:layout_height="184dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/calender" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

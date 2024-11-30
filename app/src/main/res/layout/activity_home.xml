@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="264dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="cursive"
+        android:text="Home"
+        android:textColor="#2196F3"
+        android:textSize="65dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mycoursebtn" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/timetablebtn" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="368dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gradesbtn" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="368dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contactbtn" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="425dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="704dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/library" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library and resources"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="172dp"
+        android:text="Quizzes and exams"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/academic_calender" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="508dp"
+        android:text="My Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="344dp"
+        android:text="Results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="132dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="504dp"
+        android:text="Academic Calender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="344dp"
+        android:text="Contact Details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="76dp"
+        android:text="BCI Campus"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="56dp"
+        android:text="495, Minuwangoda Road,
+Bolawalana, Negombo,
+Sri Lanka."
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="362dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Hotline : +94 70 6035 100
++94 76 6989 797
+Fax : +94 31 2231 950"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

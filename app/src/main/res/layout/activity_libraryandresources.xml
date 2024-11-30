@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Libraryandresources">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="472dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="752dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="382dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="cursive"
+        android:text="Library/Resources"
+        android:textColor="#2196F3"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:layout_width="77dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="608dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="142dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="620dp"
+        android:text="search"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="528dp"
+        android:text="Categories"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="436dp"
+        android:backgroundTint="#49A1E6"
+        android:text="Textbooks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="364dp"
+        android:backgroundTint="#49A1E6"
+        android:text="Lecture Notes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#49A1E6"
+        android:text="Videos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="220dp"
+        android:text="Research Articles"
+        android:backgroundTint="#49A1E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="528dp"
+        android:text="My library"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="196dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/register" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="436dp"
+        android:backgroundTint="#49A1E6"
+        android:text="My Notes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="364dp"
+        android:backgroundTint="#49A1E6"
+        android:text="My Recordings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#49A1E6"
+        android:text="My Files"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
