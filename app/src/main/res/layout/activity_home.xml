@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/mycoursesbtn"
         android:layout_width="109dp"
         android:layout_height="113dp"
         android:layout_marginStart="52dp"
